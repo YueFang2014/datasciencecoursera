@@ -23,7 +23,7 @@ makeMatrix <- function(x = matrix()) {
 
 
 ## "cacheSolve" function calculates the inverse of the special matrix created by "makeMatrix" above. 
-## If the inverse has already been calculated, then"cacheSolve" should retrieve the inverse from the cache.
+#If the inverse has already been calculated, then"cacheSolve" should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) { 
     i<- x$getinvs()
